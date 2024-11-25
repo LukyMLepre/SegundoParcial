@@ -51,9 +51,8 @@ class DetailActivity : AppCompatActivity() {
         weightTextView.text = "Peso: ${selectedCat.breeds[0].weight.metric} kg / ${selectedCat.breeds[0].weight.imperial} lbs"
         descriptionTextView.text = selectedCat.breeds[0].description
 
-        // Configurar el botón de retroceso
         backButton.setOnClickListener {
-            finish() // Vuelve al listado
+            finish() 
         }
     }
 }
