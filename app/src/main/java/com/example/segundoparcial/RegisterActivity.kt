@@ -41,7 +41,7 @@ class RegisterActivity : AppCompatActivity() {
             Toast.makeText(this, "Registro exitoso", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            finish() // Finaliza esta actividad
+            finish() // Finaliza esta activida
         }
     }
 }
